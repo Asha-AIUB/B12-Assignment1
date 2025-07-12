@@ -7,6 +7,7 @@
 body{
     font-family: 'Raleway', sans-serif;
     margin: 0 auto;
+    background-color: #F5F8FF;
 }
 
 .btn-primary {
@@ -25,7 +26,7 @@ body{
     text-align: center;
 }
 /*end*/
-
+/*header*/
 .nav-title {
     font-weight:900;
     color: #4C4CFF;
@@ -48,5 +49,24 @@ body{
     gap: 37px;
 }
 .header{
-    background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-image: url(Assets/Hero-bg.png)
+}
+/*end*/
+/*main*/
+.action{
+    display: flex;
+   justify-content: space-evenly;
+    padding: 116px 159px 116px 141px;
+}
+.action-title{
+    font-size: 45px;
+    color: #252432;
+}
+.action-text{
+    font-size: 24px;
+    color:#252432 ;
+    opacity: 0.5;
+}
+.action-img{
+    border-radius: 48px;
 }
