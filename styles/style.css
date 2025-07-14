@@ -272,3 +272,58 @@ button:hover {
     font-family: "Inter" sans-serif;
 
 }
+
+
+
+
+
+.footer {
+  text-align: center;
+  padding:104px 20px 103px 20px;
+  background-color:#FFFFFF;
+  border-top: rgb(0, 0, 0,0.01);
+  color: #8987A1;
+  font-family: "Inter" sans-serif;
+}
+
+.footer-container {
+  max-width: 531px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 100px;
+  font-weight:900;
+  color: #4E47FF;
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #8987A1;
+margin: 0 0 0 0;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  margin: 0;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #8987A1;
+  font-size: 14px;
+  transition: color 0.3s ease;
+  white-space: nowrap;
+   margin: 0;
+}
+
+.footer-nav a:hover {
+  color: #4a3aff;
+}
+.footer-content{
+    line-height: 1.6;
+}
